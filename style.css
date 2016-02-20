@@ -8,16 +8,24 @@ body {
   font-size: 28px;
   font-weight: 700;
 }
-
 h1 {
   color: #882020;
   font-style: normal;
   font-family: "Gloria Hallelujah", sans-serif;
 }
-
 h2 {
   color: #45ABAB;
   font-style: normal;
   font-family: "Amita", sans-serif;
   font-weight: 700;
+}
+#ingredients {
+  width: 45%;
+  box-sizing: border-box;
+  float: left;
+}
+#directions {
+  width: 45%;
+  box-sizing: border-box;
+  float: left;
 }
