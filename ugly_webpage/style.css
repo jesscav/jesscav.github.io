@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise);
+@import url(https://fonts.googleapis.com/css?family=Monofett);
+
+body {
+  color: yellow;
+  background-image: url("carroll.jpg");
+  background-color: #F0B400;
+  border-left: 10px black solid;
+  font-style: oblique;
+  border-right: 220px orange solid;
+}
+h1 {
+    color: #C0E800;
+    width: 100px;
+    margin-bottom: 100px;
+    font-weight: lighter;
+    font-family: auto;
+    font-size: 200%;
+}
+h2 {
+  color: #004A00;
+  width: 500px;
+  padding-left: 300px;
+  border-right: 100px grey solid;
+  border-left: 100px blue solid;
+  font-family: "Dancing Script";
+  font-size: 150%;
+  letter-spacing: -2px;
+  text-decoration: line-through;
+  word-spacing: 40px;
+}
+h3 {
+  color: #4F0000;
+  width: 1000px;
+  padding-top: 30px;
+  font-weight: bolder;
+  font-family: "Monofett";
+  font-size: 200%;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+h4 {
+  color: #016401;
+  width: 500px;
+  padding-left: 700px;
+  border-bottom: 3px red solid;
+  font-family: "Dancing Script";
+  word-spacing: 60px;
+}
+h5 {
+  color: #900000;
+  width: 800px;
+  float: right;
+  font-family: "Indie Flower";
+
+}
+h6 {
+  color: #00A300;
+  padding-right: 280px;
+  border-right: 5px purple solid;
+  font-family: "Dancing Script";
+  font-size: 120%;
+  letter-spacing: 5px;
+}
+h7 {
+  color: #F00000;
+  padding-bottom: 100px;
+  font-weight: lighter;
+  font-family: "Monsieur La Doulaise";
+  text-decoration: overline;
+  word-spacing: 50px;
+}
