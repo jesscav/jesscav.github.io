@@ -14,6 +14,15 @@ footer {
   padding-left: 0;
   padding-right: 0;
 }
+a {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
 h1 {
   text-align: center;
   margin-top: 0;
@@ -27,9 +36,9 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: #CECECE;
+  color: white;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16.5px;
+  font-size: 16px;
   margin-top: 0;
   padding-bottom: 60px;
   background-color: #ab1d3c;
@@ -64,6 +73,14 @@ h5 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   padding-bottom: 0;
+}
+h6 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #b21735;
+  padding-top: 15px;
 }
 .dropdown {
   padding-left: 35px;
@@ -168,16 +185,20 @@ div.timeline-Header {
   margin-left: 20px;
   margin-right: 20px;
 }
+.end {
+  margin-top: 150px;
+}
 .col-sm-12 {
   background-color: #ab1d3c;
-  padding-bottom: 45px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 17.5px;
   color: white;
+  padding-bottom: 20px;
+  border-bottom: 1px white solid;
 }
 .input-group {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .navbar {
   border-radius: 0;
