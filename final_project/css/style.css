@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
 @import url(https://fonts.googleapis.com/css?family=Hind+Siliguri);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900italic,900,700italic,200,200italic,300,300italic,400italic,600,600italic,700);
-
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,900,700,300);
 header {
   background-color: #ab1d3c;
 }
@@ -114,7 +114,6 @@ h6 {
 .col-lg-4 {
   padding-left: 15px;
   padding-right: 15px;
-
 }
 .caption-box {
   background-color: black;
@@ -147,6 +146,26 @@ h6 {
   align-items: center;
   left: 22.5px;
 }
+.caption-box3 {
+  background-color: white;
+  color: black;
+  padding: 7.5px;
+  width: 60%;
+  left: 50px;
+  bottom: 30px;
+  position: relative;
+}
+.caption-box4 {
+  background-color: black;
+  color: white;
+  padding: 6.5px;
+  width: 55%;
+  position: relative;
+  top: 15px;
+  right: 15px;
+  text-align: center;
+  margin-left: 2.5px;
+}
 .social {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -167,6 +186,14 @@ div.timeline-Header {
 .col-sm-3 {
   padding-right: 0;
   padding-left: 35px;
+}
+.issuu {
+  padding-left: 50px;
+  padding-right: 0;
+}
+.col-md-4 {
+  padding-left: 65px;
+  padding-right: 0;
 }
 .hawk {
   padding-bottom: 15px;
@@ -205,4 +232,54 @@ div.timeline-Header {
 }
 .col-md-8 {
   padding-left: 0;
+}
+.col-sm-8 {
+  background-color: white;
+}
+.section {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+.sub {
+  color: #b21735;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-bottom: solid grey 1px;
+}
+.margin {
+  margin-left: 5px;
+}
+.featured-news {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  line-height: 0.5;
+}
+.latest-news {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22.5px;
+  text-align: center;
+  margin-bottom: 22.5px;
+  text-decoration: underline;
+}
+.subscribe {
+  padding-left: 50px;
+}
+.form-control {
+  border-radius: 0;
+}
+.input-group-btn {
+  border-radius: 0;
 }
